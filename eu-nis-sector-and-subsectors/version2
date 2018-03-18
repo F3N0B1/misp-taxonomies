@@ -1,0 +1,319 @@
+{
+    "namespace": "eu-nis-sector-and-subsectors",
+    "description": "Sectors and sub sectors as identified by the NIS Directive",
+    "version": 2
+    
+    ,
+    "predicates": [
+        {
+            "value": "eu-nis-oes",
+            "expanded": "Operators of Essential Services"
+        },
+        {
+            "value": "eu-nis-oes-energy",
+            "expanded": "Operators of Essential Services - Energy Sector"
+        },
+        {
+            "value": "eu-nis-oes-transport",
+            "expanded": "Operators of Essential Services - Transport Sector"
+        },
+        {
+            "value": "eu-nis-oes-banking",
+            "expanded": "Operators of Essential Services - Banking Sector"
+        },
+        {
+            "value": "eu-nis-oes-financial",
+            "expanded": "Operators of Essential Services - Financial Market Infrastructure Sector"
+        },
+        {
+            "value": "eu-nis-oes-health",
+            "expanded": "Operators of Essential Services - Health Sector"
+        },
+        {
+            "value": "eu-nis-oes-water",
+            "expanded": "Operators of Essential Services - Drinking Water Supply and Distribution Sector"
+        },
+        {
+            "value": "eu-nis-oes-diginfra",
+            "expanded": "Operators of Essential Services - Digital Intrastructure Sector"
+        },
+        {
+            "value": "eu-nis-dsp",
+            "expanded": "Digital Service Providers"
+        }
+    ],
+    "values": [
+        {
+            "predicate": "eu-nis-oes",
+            "entry": [
+                {
+                    "value": "energy",
+                    "expanded": "Energy"
+                },
+                {
+                    "value": "transport",
+                    "expanded": "Transport Sector"
+                },
+                {
+                    "value": "banking",
+                    "expanded": "Banking"
+                },
+                {
+                    "value": "financial",
+                    "expanded": "Financial market operators"
+                },
+                {
+                    "value": "health",
+                    "expanded": "Health"
+                },
+                {
+                    "value": "water",
+                    "expanded": "Drinking Water Supply and Distribution"
+                },
+                {
+                    "value": "digitalinfrastructure",
+                    "expanded": "Digital Infrastructure"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-energy",
+            "entry": [
+                {
+                    "value": "electricity-energy",
+                    "expanded": "Electricity Sub Sector"
+                },
+                {
+                    "value": "oil-energy",
+                    "expanded": "Oil Sub Sector"
+                },
+                {
+                    "value": "gas-energy",
+                    "expanded": "Gas Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-energy-electricity",
+            "entry": [
+                {
+                    "value": "tso-electricity-energy",
+                    "expanded": "Transmission System Operators of Electricity Sub Sector"
+                },
+                {
+                    "value": "dso-electricity-energy",
+                    "expanded": "Distribution System Operators of Electricity Sub Sector"
+                },
+                {
+                    "value": "gen-electricity-energy",
+                    "expanded": "Generation/Supply for Electricity Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-energy-oil",
+            "entry": [
+                {
+                    "value": "transmission-oil-energy",
+                    "expanded": "Operators of Oil Transmission Pipelines for the Oil Sub Sector"
+                },
+                {
+                    "value": "production-oil-energy",
+                    "expanded": "Operators of Oil Production, Refining and Treatment Facilities, Storage and Transmission for Oi Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-energy-gas",
+            "entry": [
+                {
+                    "value": "supply-gas-energy",
+                    "expanded": "Gas Supply Undertakings for Gas Sub Sector"
+                },
+                {
+                    "value": "tso-gas-energy",
+                    "expanded": "Transmission System Operators in the Gas Sub Sector"
+                },
+                {
+                    "value": "dso-gas-energy",
+                    "expanded": "Distribution System Operators in the Gas Sub Sector"
+                },
+                {
+                    "value": "storage-gas-energy",
+                    "expanded": "Storage System Operators in the Gas Sub Sector"
+                },
+                {
+                    "value": "lng-gas-energy",
+                    "expanded": "Liquid Natural Gas (LNG) System Operators in the Gas Sub Sector"
+                },
+                {
+                    "value": "natural-gas-energy",
+                    "expanded": "Natural Gas Undertakings in the Gas Sub Sector"
+                },
+                {
+                    "value": "naturalrefining-gas-energy",
+                    "expanded": "Operators of Natural Gas Refining and treatment facilities in the Gas Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-transport",
+            "entry": [
+                {
+                    "value": "air-transport",
+                    "expanded": "Air Transport Sub Sector"
+                },
+                {
+                    "value": "rail-transport",
+                    "expanded": "Rail Transport Sub Sector"
+                },
+                {
+                    "value": "water-transport",
+                    "expanded": "Water Transport Sub Sector"
+                },
+                {
+                    "value": "road-transport",
+                    "expanded": "Water Transport Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-transport-air",
+            "entry": [
+                {
+                    "value": "carrier-air-transport",
+                    "expanded": "Air Carriers as part of Air Transport Sub Sector"
+                },
+                {
+                    "value": "airport-air-transport",
+                    "expanded": "Airport managing bodies as part of the Air Transport Sub Sector"
+                },
+                {
+                    "value": "atc-air-transport",
+                    "expanded": "Air Traffic Management control operators providing Air Traffic Control services within Air Transport Subsector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-transport-rail",
+            "entry": [
+                {
+                    "value": "infra-rail-transport",
+                    "expanded": "Infrastructure managers as part of the rail transport sub sector"
+                },
+                {
+                    "value": "railway-rail-transport",
+                    "expanded": "Railway undertakings as part of the rail transport sub sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-transport-water",
+            "entry": [
+                {
+                    "value": "vesseltransport-water-transport",
+                    "expanded": "Inland sea and coastal passenger and freight water transport companies for the water transport sub sector"
+                },
+                {
+                    "value": "ports-water-transport",
+                    "expanded": "Managing bodies of ports and port facilities for the water transport sub sector"
+                },
+                {
+                    "value": "vts-water-transport",
+                    "expanded": "Operators of vessel traffic services for the water transport sub sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-transport-road",
+            "entry": [
+                {
+                    "value": "tmc-road-transport",
+                    "expanded": "Authorities responsible for Traffic Management Control as part of the road transport sub sector"
+                },
+                {
+                    "value": "its-road-transport",
+                    "expanded": "Operators of Intelligent Transport Systems as part of the road transport sub sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-banking",
+            "entry": [
+                {
+                    "value": "credit-banking",
+                    "expanded": "Bank Credit Institutions Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-financial",
+            "entry": [
+                {
+                    "value": "trading-financial",
+                    "expanded": "Operators of Financial Trading Sub Sector"
+                },
+                {
+                    "value": "ccp-financial",
+                    "expanded": "Financial Central Counterparty Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-health",
+            "entry": [
+                {
+                    "value": "healthcare-health",
+                    "expanded": "Healthcare Provider Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-water",
+            "entry": [
+                {
+                    "value": "supply-water",
+                    "expanded": "Water Supply Sub Sector"
+                },
+                {
+                    "value": "distribution-water",
+                    "expanded": "Water Distribution Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-oes-diginfra",
+            "entry": [
+                {
+                    "value": "ixp-diginfra",
+                    "expanded": "IXPs Sub Sector"
+                },
+                {
+                    "value": "dns-diginfra",
+                    "expanded": "DNS Service Provider Sub Sector"
+                },
+                {
+                    "value": "tld-diginfra",
+                    "expanded": "TLD Name Registry Sub Sector"
+                }
+            ]
+        },
+        {
+            "predicate": "eu-nis-dsp",
+            "entry": [
+                {
+                    "value": "market-dsp",
+                    "expanded": "Online Marketplace Sub Sector"
+                },
+                {
+                    "value": "search-dsp",
+                    "expanded": "Online Search Engine Sub Sector"
+                },
+                {
+                    "value": "cloud-dsp",
+                    "expanded": "Cloud Computing Service Sub Sector"
+                }
+            ]
+        }
+    ]
+}
